@@ -1,0 +1,207 @@
+/* 去除列表默认样式 */
+ul,
+ol {
+  list-style: none;
+}
+/* 左浮动 */
+.fl {
+  float: left;
+}
+/* 右浮动 */
+.fr {
+  float: right;
+}
+.login {
+  padding-right: 10px;
+}
+section.commod div.col-md-10 div.col-md-2 {
+  height: 200px;
+  text-align: center;
+}
+section.commod div.col-md-10 div.col-md-2 img {
+  width: 130px;
+  height: 130px;
+}
+section.commod div.col-md-10 div.col-md-2 a {
+  color: #666;
+  font-size: 14px;
+}
+section.commod div.col-md-10 div.col-md-2 p {
+  color: #E4393C;
+  font-size: 16px;
+}
+footer img {
+  width: 100%;
+}
+footer div.about,
+footer div.copyright {
+  margin: 5px 0 10px;
+  text-align: center;
+}
+footer div.about a,
+footer div.copyright a {
+  padding: 0 5px;
+}
+footer div.copyright {
+  margin-bottom: 20px;
+}
+div.login-user {
+  width: 440px;
+  padding: 20px 0 20px 30px;
+  border: 1px solid #E7E7E7;
+  border-radius: 5px;
+  margin-top: 60px;
+  background: #fff;
+}
+div.login-user span.login-title {
+  padding-right: 17px;
+  color: #666;
+  font-size: 22px;
+}
+div.resister-user {
+  background: #fff;
+  padding: 40px 80px;
+  margin: 30px;
+  border: 7px solid #ccc;
+}
+div.resister-user span.resister-title {
+  padding: 0 10px;
+  color: #3164af;
+  font-size: 18px;
+}
+section.product {
+  max-width: 1210px;
+  margin: 0 auto;
+}
+section.product div.col-md-2 img {
+  width: 170px;
+}
+section.product div.col-md-2 p {
+  margin: 0;
+  color: #ff0000;
+}
+section.product div.col-md-2 p a {
+  color: green;
+}
+div.record {
+  width: 1210px;
+  height: 246px;
+  padding: 0 9px;
+  border: 1px solid #ddd;
+  border-top: 2px solid #999;
+  margin: 0 auto;
+}
+div.record ul li {
+  width: 150px;
+  height: 216px;
+  padding: 0 18px 15px;
+  margin: 0 8px 0 0;
+  float: left;
+  text-align: center;
+}
+div.record ul li img {
+  width: 130px;
+  height: 130px;
+}
+section.product-buy div.buy-header {
+  width: 930px;
+  padding: 10px;
+  border: 1px solid #e4e4e4;
+  margin: 0 auto 10px;
+}
+section.product-buy div.buy-section {
+  width: 950px;
+  margin: 0 auto;
+}
+section.product-buy div.buy-section img {
+  width: 400px;
+  height: 350px;
+}
+section.product-buy div.buy-section div.col-md-6 {
+  margin: 10px 0;
+}
+section.product-buy div.buy-section div.col-md-6 div {
+  margin: 10px 0;
+}
+section.product-buy div.buy-section div.col-md-6 div strong {
+  color: #ef0101;
+}
+section.product-buy div.buy-section div.col-md-6 div a {
+  background: #f07373;
+}
+section.product-buy div.buy-section div.col-md-6 div.buy-num-box {
+  width: 330px;
+  padding: 10px;
+  border: 1px solid #e7dbb1;
+  margin: 15px 0 10px 0;
+  background-color: #fffee6;
+}
+section.product-buy div.buy-section div.col-md-6 div.buy-num-box p {
+  margin-top: 5px;
+}
+section.product-buy div.buy-section div.col-md-6 div.buy-num-box div.buy-num {
+  padding-left: 10px;
+  border-bottom: 1px solid #faeac7;
+  margin-top: 20px;
+}
+section.product-buy div.buy-section div.col-md-6 div.buy-num-box div.buy-sub {
+  margin: 20px 0 10px;
+  text-align: center;
+}
+section.product-buy div.buy-section div.col-md-6 div.buy-num-box div.buy-sub input {
+  width: 127px;
+  height: 36px;
+  background: url(../images/product.gif) no-repeat scroll 0 -600px;
+}
+section.product-buy div.buy-section div.buy-id {
+  width: 350px;
+  border-bottom: 1px dotted #ddd;
+  margin: 10px 0 10px 0;
+}
+section.product-buy div.buy-detail {
+  width: 950px;
+  margin: 0 auto;
+}
+section.product-buy div.buy-detail div.detail-title {
+  width: 930px;
+  padding: 10px;
+  margin: 10px auto;
+  background: #d3d3d3;
+}
+section.product-buy div.buy-detail div.detail-table {
+  width: 930px;
+  margin: 0 auto;
+}
+section.cart-detail div.row > div {
+  width: 950px;
+  margin: 10px auto 0;
+}
+section.cart-detail div.row > div strong {
+  margin: 5px 0;
+  font-size: 16px;
+}
+section.cart-detail div.row > div img {
+  width: 70px;
+  height: 60px;
+}
+section.cart-detail div.cart-clearing {
+  margin-right: 130px;
+  text-align: right;
+}
+section.cart-detail div.cart-clearing p em,
+section.cart-detail div.cart-clearing p strong {
+  color: #ff6600;
+}
+section.cart-detail div.cart-clearing div {
+  margin: 10px 0;
+}
+section.cart-detail div.cart-clearing div input {
+  width: 100px;
+  height: 35px;
+  background: url(../images/register.gif) no-repeat;
+  color: white;
+}
+div.order-list {
+  width: 950px;
+  margin: 10px auto 0;
+}
